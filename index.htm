@@ -1,1 +1,108 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+<title> My first page </title>
+
+<meta name="Author" content="Name of the author" />
+<meta name="Description" content="Sample of meta data" />
+<meta name="Keywords" content="Sample, HTML5, Web design" />
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript">
+	window.onload = function() {
+		alert("window loaded");
+		document.getElementById("myMessage").innerHTML = "Hallo zusammen"
+	};
+</script>
+
+<style type="text/css">
+	body {color:red}
+	.message {color:green}
+</style>
+
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<!--- 
+<base href="http://nome sito base (dove prendere i file CSS e/o Javascript)/" />
+-->
+
+</head>
+
+<body>
+
+<h1> HTML Fundamentals </h1>
+<h2> Overview </h2>
+<h3> Objectives </h3>
+<h3> Outline </h3>
+<!-- 
+<h5> Heading 5 </h5>
+<h6> Heading 6 </h6> 
+-->
+
+<div id="overviewContainer"> This is my <span> overview </span> (inline element) </div>
+<div id="secondDiv"> This is another <div> DIV </div> (block element) </div>
+
+<p id="myMessage" class="message"> Hallo Welt (also a block element) </p>
+
+<p> Sempre caro mi fu quest'ermo colle,
+E questa siepe, che da tanta parte
+Dell'ultimo orizzonte il guardo esclude.
+Ma sedendo e mirando, interminati
+Spazi di là da quella, e sovrumani
+&nbsp;Silenzi, e profondissima quiete
+Io nel pensier mi fingo; ove per poco
+Il cor non si spaura. E come il vento
+Odo stormir tra queste piante, io quello
+Infinito silenzio a questa voce
+Vo comparando: e mi sovvien l'eterno,
+E le morte stagioni, e la presente
+E viva, e il suon di lei. Così tra questa
+Immensità s'annega il pensier mio:
+E il naufragar m'è dolce in questo mare. </p>
+
+<!-- sopra un esempio di non breaking space (&nbsp;): se si riduce la finestra del browser se ne vede l'effetto-->
+
+<hr />
+
+<p> <pre> Sempre caro mi fu quest'ermo colle,
+E questa siepe, che da tanta parte
+Dell'ultimo orizzonte il guardo esclude.
+Ma sedendo e mirando, interminati
+Spazi di là da quella, e sovrumani
+Silenzi, e profondissima quiete
+Io nel pensier mi fingo; ove per poco
+Il cor non si spaura. E come il vento
+Odo stormir tra queste piante, io quello
+Infinito silenzio a questa voce
+Vo comparando: e mi sovvien l'eterno,
+E le morte stagioni, e la presente
+E viva, e il suon di lei. Così tra questa
+Immensità s'annega il pensier mio:
+E il naufragar m'è dolce in questo mare. </pre> </p>
+
+<hr />
+
+<span> Have a break! </span>
+<span> Have a break! </span>
+<br />
+<span> Have a breakfast! </span>
+<br />
+<br />
+<br />
+<br />
+<br />
+<span> Have a breakfast lunch! </span>
+
+<hr />
+
+<br />
+<br />
+
+<div> This is how you write a &lt;div&gt; and things like that </div>
+
+</body>
+
+</html>
