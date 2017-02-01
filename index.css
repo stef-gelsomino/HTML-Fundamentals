@@ -1,0 +1,29 @@
+body {background-color:black}
+
+#Leo {color:white}
+
+OL.withAlpha {list-style-type:lower-alpha}
+OL.withRoman {list-style-type:lower-roman}
+OL.withUpperAlpha {list-style-type:upper-alpha}
+OL.withUpperRoman {list-style-type:upper-roman}
+
+header { position:relative; }
+header img {
+  position:absolute;
+  top:-325px;
+  left:500px;
+}
+
+#GL {
+	color:white;
+	position:absolute;
+    left:508px;
+    top:5490px;
+}
+
+#GLo {
+	color:white;
+	position:absolute;
+    left:650px;
+    top:5775px;
+}
